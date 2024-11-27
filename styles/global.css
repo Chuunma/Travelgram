@@ -3,3 +3,18 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+:root {
+  --brand-color: #ef5f4c;
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6c6c6c;
+  --shape-transparency: rgba(255, 255, 255, 0.562);
+}
+
+body {
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
